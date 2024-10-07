@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img class="img1" src="img/logo.jpeg" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="central.html">CAMISAS</a></li>
+            <li><a href="#novidades">NOVIDADES</a></li>
+            <li><a href="#numero">CONTATO</a></li>
+            <li><a href="cadastro.html">CADASTRE-SE</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login-process.php" method="post">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+<br><br>
+    <section id="numero"> 
+        <div class="section-content">
+            <h1>Contato</h1>
+            <p><strong>Telefone:</strong> (11) 12345-6789</p>
+            <p><strong>Email:</strong> contato@lojadocarros.com.br</p>
+            <p><strong>Endereço:</strong> Av. Principal, 456 - São Paulo, SP</p>
+            <p><strong >Horário de Atendimento:</strong> Segunda a Sexta, das 9h às 18h</p>
+        </div>
+    </section>
+</body>
+</html>

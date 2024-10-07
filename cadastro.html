@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-logo">
+            <img class="img1" src="img/logo.jpeg" alt="Logo">
+        </div>
+        <ul>
+            <li><a href="central.html">CAMISAS</a></li>
+            <li><a href="#novidades">NOVIDADES</a></li>
+            <li><a href="#numero">CONTATO</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </nav>
+
+    <div class="login-container">
+        <h2>Cadastro</h2>
+        <form action="register-process.php" method="post">
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+
+            <label for="confirm-password">Confirmar Senha:</label>
+            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+
+    <br><br>
+    <section id="numero"> 
+        <div class="section-content">
+            <h1>Contato</h1>
+            <p><strong>Telefone:</strong> (11) 12345-6789</p>
+            <p><strong>Email:</strong> contato@lojadocarros.com.br</p>
+            <p><strong>Endereço:</strong> Av. Principal, 456 - São Paulo, SP</p>
+            <p><strong>Horário de Atendimento:</strong> Segunda a Sexta, das 9h às 18h</p>
+        </div>
+    </section>
+</body>
+</html>
